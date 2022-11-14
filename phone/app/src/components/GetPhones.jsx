@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
 import Popup from "reactjs-popup";
-import Details from "./Details";
+// import Details from "./Details";
 
 export const GetPhones = () => {
   const [phonesList, setPhonesList] = useState([]);
@@ -86,7 +86,7 @@ export const GetPhones = () => {
           </div>
         ))}
       </div>
-      <Details />
+      {/* <Details /> */}
     </>
   );
 };
